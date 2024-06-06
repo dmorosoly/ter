@@ -1,0 +1,302 @@
+/* Medida para Celulares */
+@media (min-width:340px ){
+    .contenedor-productos-computadoras, .productos-computadoras{
+        display: none;
+    }
+    
+    #contenedor-menu{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contenedor-menu img{
+        border: 10px solid rgb(190, 28, 28);
+        margin: 10px;
+        height: 30vh;
+    }
+
+    .contenedor-productos-tablet{
+        width: 100%;
+        margin: 20px auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .caption{
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+
+    .productos-tablet{
+        width: 100%;
+        margin-bottom: 10px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+
+    .productos-tablet img{
+        width: 35vw;
+        height: 20vh;
+        border: 2px solid grey;
+        margin-top: 25px;
+    }
+
+    .productos-tablet p{
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+    .productos
+    {
+        border: red 5px solid;
+        width: 300px;
+        height: 300px;
+        padding: 50px;
+        margin: 10px;
+    }
+
+    .contenedor
+    {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 100px auto;
+        justify-content: space-between;
+       align-items: center;
+    }
+
+    #tomas-de-fuerza
+    {
+        background-image: url(../imagenes/tomas\ de\ fuerzas.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .productos h1
+    {
+        text-align: center;
+        color: black
+    }
+
+    #bombas-hidraulicas
+    {
+        background-image: url(../imagenes/bombas\ hidraulicas.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #cajas-de-transferencia
+    {
+        background-image: url(../imagenes/cajas\ de\ transferencia.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+}
+
+/* Medida para Tablet/iPad */
+@media (min-width:768px ){
+    .contenedor-productos-computadoras, .productos-computadoras{
+        display: none;
+    }
+    
+    #contenedor-menu{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contenedor-menu img{
+        border: 10px solid rgb(190, 28, 28);
+        margin: 10px;
+        height: 40vh;
+    }
+
+    .contenedor-productos-tablet{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contenedor-productos-tablet h1{
+        margin-top: 10px;
+        font-weight: bold;
+    }
+
+    .productos-tablet{
+        width: 100%;
+        margin-bottom: 10px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+
+    .productos-tablet img{
+        width: 35vw;
+        height: 30vh;
+        border: 2px solid grey;
+        margin-top: 25px;
+    }
+
+    .productos-tablet p{
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+    
+    .productos
+    {
+        border: red 5px solid;
+        width: 300px;
+        height: 300px;
+        padding: 50px;
+        margin: 10px;
+    }
+
+    .contenedor
+    {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 100px auto;
+        justify-content: space-between;
+       align-items: center;
+    }
+
+    #tomas-de-fuerza
+    {
+        background-image: url(../imagenes/tomas\ de\ fuerzas.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .productos h1
+    {
+        text-align: center;
+        color: black
+    }
+
+    #bombas-hidraulicas
+    {
+        background-image: url(../imagenes/bombas\ hidraulicas.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #cajas-de-transferencia
+    {
+        background-image: url(../imagenes/cajas\ de\ transferencia.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+}
+
+/* Medida para Computadoras */
+@media (min-width:1200px ){
+    .contenedor-productos-tablet, .productos-tablet{
+        display: none;
+    }
+    
+    #contenedor-menu{
+        width: 100%;
+        height: 65vh;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #contenedor-menu img{
+        border: 10px solid rgb(190, 28, 28);
+        margin: 10px;
+        height: 50vh;
+    }
+
+    .contenedor-productos-computadoras{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contenedor-productos-computadoras h1{
+        margin: 30px;
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+    .productos-computadoras{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+    }
+
+    .productos-computadoras img{
+        width: 20vw;
+        height: 40vh;
+        border: 2px solid grey;
+    }
+
+    .productos-computadoras p{
+        font-size: 18px;
+    }
+
+    .productos
+    {
+        border: red 5px solid;
+        width: 400px;
+        height: 400px;
+        padding: 50px;
+    }
+
+    .contenedor
+    {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        margin: 100px auto 0;
+        justify-content: space-between;
+    }
+
+    #tomas-de-fuerza
+    {
+        background-image: url(../imagenes/tomas\ de\ fuerzas.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .productos h1
+    {
+        text-align: center;
+        color: black
+    }
+
+    #bombas-hidraulicas
+    {
+        background-image: url(../imagenes/bombas\ hidraulicas.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #cajas-de-transferencia
+    {
+        background-image: url(../imagenes/cajas\ de\ transferencia.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

@@ -1,0 +1,234 @@
+/* Medida para Celulares */ 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+@media (min-width:340px ){
+    .seccion-1
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .imagen-1
+    {
+        width: 90vw;
+        margin: 0 auto;
+    }
+
+    .parte-1
+    {
+        margin: 10px auto;
+        width: 90%;
+        text-align: justify;
+    }
+
+    .parrafo
+    {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .seccion-2{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .parte-2{
+        margin: 10px auto;
+        width: 90%;
+        text-align: justify;
+    }
+
+    .parrafo-2
+    {
+        width: 100%;
+        font-size: 13px;
+        text-align: justify;
+        white-space: pre-line;
+    }
+
+    .imagen-2
+    {
+        width: 90vw;
+        height: 50vh;
+        margin: 0 auto;
+    }
+
+    h1
+    {
+        text-align: center;
+        
+    }
+
+    .seccion-3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 3rem;
+        margin-top: 3rem;
+        padding-bottom: 4rem;
+        background-color: rgb(190, 28, 28);
+        color: rgb(228, 228, 228);
+    }
+    
+    .parrafo-3{
+        width: 80%;
+        font-size: 16px;
+        line-height:3rem;
+    }
+
+
+}
+
+/* Medida para Tablet/iPad */
+
+@media (min-width:768px ){
+    .seccion-1{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+    .parte-1{
+        margin: 10px auto;
+        width: 85%;
+        text-align: justify;
+    }
+    
+    h1{
+        font-size: 2.7rem;
+        text-align: left;
+    }
+    
+    .parrafo{
+        width: 100%;
+        font-size: 2.3rem;
+    }
+    
+    .imagen-1{
+        width: 85%;
+    }
+    
+    .seccion-2{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .parte-2{
+        margin: 10px auto;
+        width: 85%;
+        text-align: justify;
+    }
+    
+    .parrafo-2{
+        width: 100%;
+        font-size: 2.3rem;
+        text-align: justify;
+        white-space: pre-line;
+    }
+
+    .imagen-2
+    {
+        height: 80vh;
+    }
+    
+    .seccion-3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 3rem;
+        margin-top: 3rem;
+        padding-bottom: 4rem;
+        background-color: rgb(190, 28, 28);
+        color: rgb(228, 228, 228);
+    }
+    
+    .parrafo-3{
+        width: 80%;
+        font-size: 2.5rem;
+        line-height:3.3rem;
+    }
+
+    
+}
+
+/* Medida para Computadoras */
+
+@media (min-width:1200px ){
+    .seccion-1{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        align-items: center;
+    }
+    
+    .parte-1{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        text-align: justify;
+    }
+    
+    h1{
+        font-size: 2.2rem;
+        text-align: left;
+    }
+    
+    .parrafo{
+        width: 90%;
+        font-size: 2rem;
+    }
+    
+    .imagen-1{
+        padding: 4rem;
+        width: 900px;
+    }
+    
+    .seccion-2{
+        display: flex;
+        flex-direction: row;
+        gap: 25rem;
+        align-items: center;
+    }
+    
+    .imagen-2{
+        margin-right: 12rem;
+        height:600px; 
+        width:450px;
+    }
+
+    .parte-2{
+        width: 50%;
+        padding-left: 4rem;
+    }
+    
+    .parrafo-2{
+        font-size: 2rem;
+        text-align: justify;
+        white-space: pre-line;
+    }
+    
+    .seccion-3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 3rem;
+        margin-top: 3rem;
+        padding-bottom: 4rem;
+        background-color: rgb(190, 28, 28);
+        color: rgb(228, 228, 228);
+    }
+    
+    .parrafo-3
+    {
+        width: 80%;
+        font-size: 2.3rem;
+        line-height:3rem;
+    }
+}

@@ -1,0 +1,306 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Overpass:wght@300;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+    font-size: 62.5% /* 1rem = 10px */
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(252, 43, 43);
+}
+
+/* Medida para Celular */
+@media (min-width: 340px ){
+    .boton-flotante-whatsapp{
+        position: fixed;
+        width: 50px;
+        height: 50px;
+        line-height: 55px;
+        bottom: 140px;
+        right: 30px;
+    }
+
+    .boton-flotante-gmail{
+        position: fixed;
+        width: 50px;
+        height: 50px;
+        line-height: 55px;
+        bottom: 80px;
+        right: 30px;
+    }
+
+    /* Header */
+    .menu-logo{
+        background-color: rgb(190, 28, 28);
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo{
+        margin: 0 10px;
+        height: 4vh;
+    }
+
+    .menu-hambur{
+        display: block;
+    }
+
+    .menu
+    {
+        display: none;
+    }
+
+    /* Menu Hamburguesa */
+    .ul-caps{
+        list-style: none;
+        display: none;
+        background:rgb(255, 255, 255);
+        width: 40%;
+        text-align: center;
+    }
+    
+    .ul-caps li{
+        border-bottom: 1px solid rgb(190, 28, 28);
+        border-left: 1px solid rgb(190, 28, 28);
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .ul-caps li a{
+        color: black;
+    }
+
+    .check-caps{
+        display: none;
+    }
+    
+    .check-caps:checked + .li-temp > .ul-caps {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+
+    }
+
+    .hambur{
+        position: absolute;
+        left: 85vw;
+        top: 3vh;
+    }
+
+    /* Footer */
+    footer{
+        margin-top: auto;
+    }
+
+    .footer{
+        background-color: rgb(199, 197, 197);
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .svg-elementos-footer{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .info-elementos-footer{
+        font-size: 1.6rem;
+        display: flex;
+        flex-direction: column;
+        font-weight: 500;
+        gap: 15px;
+    }
+
+
+}
+
+/* Medida para Tablet/iPad */
+@media (min-width: 768px ){
+    /* Boton Flotante */
+    .boton-flotante-whatsapp{
+        position: fixed;
+        width: 45px;
+        height: 45px;
+        line-height: 55px;
+        bottom: 140px;
+        right: 30px;
+    }
+
+    .boton-flotante-gmail{
+        position: fixed;
+        width: 45px;
+        height: 45px;
+        line-height: 55px;
+        bottom: 80px;
+        right: 30px;
+    }
+
+    /* Header */
+    .menu-logo{
+        background-color: rgb(190, 28, 28);
+        width: 100%;
+        height: 8vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo{
+        margin: 0 30px;
+        height: 5vh;
+    }
+
+    .menu-hambur, .li-temp{
+        display: none;
+    }
+
+    .menu{
+        list-style: none;
+        font-size: 2rem;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        justify-items: center;
+        margin: 10px 0;
+    }
+
+    .strong{
+        color: rgb(160, 1, 1);
+        font-weight: bold;
+    }
+
+    /* Footer */
+    footer{
+        margin-top: auto;
+    }
+
+    .footer{
+        background-color: rgb(199, 197, 197);
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        padding: 15px;
+    }
+
+    .svg-elementos-footer{
+        display: flex;
+        flex-direction: column;
+        gap: 17.5px;
+    }
+
+    .info-elementos-footer{
+        font-size: 2rem;
+        display: flex;
+        flex-direction: column;
+        font-weight: 500;
+        gap: 10px;
+    }
+
+}
+
+/* Medida para Computadoras */
+@media (min-width: 1200px ){
+    /* Boton Flotante */
+    .boton-flotante-whatsapp{
+        position: fixed;
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+        bottom: 110px;
+        right: 30px;
+    }
+
+    .boton-flotante-gmail{
+        position: fixed;
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+        bottom: 50px;
+        right: 30px;
+    }
+
+    /* Header */
+    .menu-logo{
+        background-color: rgb(190, 28, 28);
+        width: 100%;
+        height: 8vh;
+        display: flex;
+        align-items: center;
+    }
+
+    .logo{
+        margin: 0 30px;
+        height: 5vh;
+    }
+
+    .menu-hambur, .li-temp
+    {
+        display: none;
+    }
+
+    .menu{
+        list-style: none;
+        font-size: 2rem;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        justify-items: center;
+        width: 75%;
+        margin: 10px auto;
+    }
+
+    .strong{
+        color: rgb(160, 1, 1);
+        font-weight: bold;
+    }
+
+    /* Footer */
+    footer{
+        margin-top: auto;
+    }
+
+    .footer{
+        background-color: rgb(199, 197, 197);
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        padding: 15px;
+    }
+
+    .svg-elementos-footer{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .info-elementos-footer{
+        font-size: 2rem;
+        display: flex;
+        flex-direction: column;
+        font-weight: 500;
+        gap: 10px;
+    }
+    
+
+}
