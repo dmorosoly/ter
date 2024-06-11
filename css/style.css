@@ -74,15 +74,15 @@ a{
         list-style: none;
         display: none;
         background:rgb(255, 255, 255);
-        width: 40%;
+        width: 60%;
         text-align: center;
     }
     
     .ul-caps li{
         border-bottom: 1px solid rgb(190, 28, 28);
         border-left: 1px solid rgb(190, 28, 28);
-        font-size: 12px;
-        padding: 5px;
+        font-size: 15px;
+        padding: 15px;
     }
 
     .ul-caps li a{
@@ -131,7 +131,7 @@ a{
         display: flex;
         flex-direction: column;
         font-weight: 500;
-        gap: 15px;
+        gap: 20px;
     }
 
 
