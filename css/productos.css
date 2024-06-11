@@ -41,6 +41,13 @@
         justify-items: center;
     }
 
+    .mobile
+    {
+        width: 100%;
+        display: flex; 
+        flex-direction: column;
+    }
+
     .productos-tablet img{
         width: 35vw;
         height: 20vh;
@@ -73,7 +80,7 @@
 
     #tomas-de-fuerza
     {
-        background-image: url(../imagenes/tomas\ de\ fuerzas.png);
+        background-image: url(../imagenes/toma_de_fuerza.png);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -175,7 +182,7 @@
 
     #tomas-de-fuerza
     {
-        background-image: url(../imagenes/tomas\ de\ fuerzas.png);
+        background-image: url(../imagenes/toma_de_fuerza.png);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -275,7 +282,7 @@
 
     #tomas-de-fuerza
     {
-        background-image: url(../imagenes/tomas\ de\ fuerzas.png);
+        background-image: url(../imagenes/toma_de_fuerza.png);
         background-repeat: no-repeat;
         background-size: cover;
     }
