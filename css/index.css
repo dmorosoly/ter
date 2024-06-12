@@ -146,6 +146,11 @@
     {
         width: 200px;
     }
+
+    .clark
+    {
+        height: 150px;
+    }
     /* Video con texto */
     #contenido-texto{
         display: flex;
